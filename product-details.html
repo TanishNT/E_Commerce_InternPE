@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products - Style4U</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lumanosimo&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="E Comm Images/style4u-logo.png" width="125px" />
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="account.html">Account</a></li>
+            </ul>
+          </nav>
+          <a href="shopping-cart.html"><img src="E Comm Images/cart.png" width="30px" height="30px" /></a>
+          <img src="E Comm Images/menu.png" class="menu-icon" onclick="menuToggle()" />
+        </div>
+      </div>
+      
+    <!------------------Single Product Details------------->
+    <div class="small-container single-product" >
+        <div class="row">
+            <div class="col-2">
+                <img src="E Comm Images/2pants 1.jpg" width="100%" id="productImage">
+            </div>
+            <div class="col-2">
+                <p>Home / Pants</p>
+                <h1>Pack of 2 Pants</h1>
+                <h4>$50.00</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>L</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                </select>
+                <input type="number" value="1"> 
+                <a href="shopping-cart.html" class="btn">Add To Cart</a> <br> <br>
+                <h3>Product Info <i class="fa fa-indent"></i></h3>  <br>    
+                <p>A pair of pants for gents, that is available in all sizes. The material of the pants are high in quality and gives long life and premium look.</p> 
+            </div>
+        </div>
+    </div>
+
+    <!-----------------TITLE-------------------->
+    <div class="small-comtainer">
+        <div class="row">
+            <h2>Related Products</h2>
+            <p>View More</p>
+        </div>
+    </div>
+    <!----------------products------------------>
+    <div class="small-container">
+      <div class="row">
+        <div class="col-4">
+          <img src="E Comm Images/4 Shoes.jpg" />
+          <h4>Shoes</h4>
+          <div class="rating">
+            <i class="fa fa-star check"></i>
+            <i class="fa fa-star check"></i>
+            <i class="fa fa-star check"></i>
+            <i class="fa fa-star check"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="E Comm Images/2pants 2.jpg" />
+          <h4>Pants(pack of 2)</h4>
+          <div class="rating">
+            <i class="fa fa-star check"></i>
+            <i class="fa fa-star check"></i>
+            <i class="fa fa-star check"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>$100.00</p>
+        </div>
+        <div class="col-4">
+          <img src="E Comm Images/chimney.jpg" />
+          <h4>Chimney</h4>
+          <div class="rating">
+            <i class="fa fa-star check"></i>
+            <i class="fa fa-star check"></i>
+            <i class="fa fa-star check"></i>
+            <i class="fa fa-star check"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>$150.00</p>
+        </div>
+        <div class="col-4">
+          <img src="E Comm Images/BT Neckband.jpg" />
+          <h4>BT Neckband</h4>
+          <div class="rating">
+            <i class="fa fa-star check"></i>
+            <i class="fa fa-star check"></i>
+            <i class="fa fa-star check"></i>
+            <i class="fa fa-star check"></i>
+            <i class="fa fa-star check"></i>
+          </div>
+          <p>$100.00</p>
+        </div>
+    <!--------------Footer--------------->
+    <!--------------Footer--------------->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download our App</h3>
+            <p>Download our App for Android and iOS devices</p>
+            <div class="app-logo">
+              <img src="E Comm Images/app-store.png">
+              <img src="E Comm Images/play-store.png">
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="E Comm Images/style4u-logo.png">
+            <p>Our purpose is to sustainably make the pleasure and 
+              benefits of Sports Accessible to Many.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Coupons</li>
+              <li>Blog Post</li>
+              <li>Return Policy</li>
+              <li>Join Affliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Instagram</li>
+              <li>Twitter</li>
+              <li>Youtube</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p class="cp">Copyright 2023</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
